@@ -6,9 +6,12 @@ const monthIndex = new Date().getMonth()
 const lastDate = new Date(new Date().getFullYear(), monthIndex + 1, 0).getDate()
 const firstDate = new Date(new Date().getFullYear(), monthIndex,1).getDay()
 
-const months=["J", "F", "M"]
+const months=["Janeiro", "Fevereiro", "Março",  "Abril",  "Maio",
+"Junho","Julho","Agosto", "Setembro",
+"Outubro", "Novembro", "Dezembro"]
 
-const days=["D","S","T","Q","Q","S","S"]
+const days=["Domingo","Segunda","Terça",
+"Quarta","Quinta","Sexta","Sábado"]
 
 monthEl.innerText= months[monthIndex]
 
